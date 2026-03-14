@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bank Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+
+<h2>My Bank</h2>
+
+<button onclick="logout()">Logout</button>
+
+</div>
+
+
+<div class="dashboard">
+
+<div class="balance-card">
+
+<h3>Your Balance</h3>
+
+<h1 id="balance">₹0</h1>
+
+</div>
+
+
+<div class="actions">
+
+<div class="card">
+
+<h3>Deposit / Withdraw</h3>
+
+<input id="amount" type="number" placeholder="Enter Amount">
+
+<button onclick="deposit()">Deposit</button>
+
+<button onclick="withdraw()">Withdraw</button>
+
+</div>
+
+
+<div class="card">
+
+<h3>Transfer Money</h3>
+
+<input id="receiver" placeholder="Receiver Username">
+
+<input id="transferAmount" type="number" placeholder="Amount">
+
+<button onclick="transfer()">Transfer</button>
+
+</div>
+
+</div>
+
+
+<div class="history">
+
+<h3>Transaction History</h3>
+
+<ul id="history"></ul>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

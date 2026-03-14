@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "id": "e985",
+      "username": "vinay",
+      "password": "sumanth",
+      "balance": 4038523,
+      "transactions": [
+        {
+          "type": "deposit",
+          "amount": 10000
+        },
+        {
+          "type": "received",
+          "amount": null,
+          "from": "rahul"
+        },
+        {
+          "type": "received",
+          "amount": 5000,
+          "from": "rahul"
+        },
+        {
+          "type": "deposit",
+          "amount": 1000
+        },
+        {
+          "type": "transfer",
+          "amount": 500,
+          "to": "rahul"
+        },
+        {
+          "type": "transfer",
+          "amount": 5000,
+          "to": "rahul"
+        },
+        {
+          "type": "received",
+          "amount": 3456,
+          "from": "rahul"
+        },
+        {
+          "type": "received",
+          "amount": 34567,
+          "from": "rahul"
+        },
+        {
+          "type": "received",
+          "amount": 4000000,
+          "from": "rahul"
+        }
+      ]
+    },
+    {
+      "id": "ea09",
+      "username": "rahul",
+      "password": "vijay",
+      "balance": 5466,
+      "transactions": [
+        {
+          "type": "deposit",
+          "amount": 10000
+        },
+        {
+          "type": "transfer",
+          "amount": null,
+          "to": "vinay"
+        },
+        {
+          "type": "deposit",
+          "amount": 10000
+        },
+        {
+          "type": "transfer",
+          "amount": 5000,
+          "to": "vinay"
+        },
+        {
+          "type": "received",
+          "amount": 500,
+          "from": "vinay"
+        },
+        {
+          "type": "withdraw",
+          "amount": 5500
+        },
+        {
+          "type": "received",
+          "amount": 5000,
+          "from": "vinay"
+        },
+        {
+          "type": "withdraw",
+          "amount": 500
+        },
+        {
+          "type": "deposit",
+          "amount": 4388989
+        },
+        {
+          "type": "transfer",
+          "amount": 3456,
+          "to": "vinay"
+        },
+        {
+          "type": "transfer",
+          "amount": 34567,
+          "to": "vinay"
+        },
+        {
+          "type": "transfer",
+          "amount": 4000000,
+          "to": "vinay"
+        },
+        {
+          "type": "withdraw",
+          "amount": 350000
+        }
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
